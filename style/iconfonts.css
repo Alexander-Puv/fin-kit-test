@@ -1,0 +1,60 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../assets/iconfonts/icomoon.eot?iakven');
+  src:  url('../assets/iconfonts/icomoon.eot?iakven#iefix') format('embedded-opentype'),
+    url('../assets/iconfonts/icomoon.ttf?iakven') format('truetype'),
+    url('../assets/iconfonts/icomoon.woff?iakven') format('woff'),
+    url('../assets/iconfonts/icomoon.svg?iakven#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"]::before,
+[class*=" icon-"]::before {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Loyalty:before {
+  content: "\e904";
+  color: #0962e8;
+}
+.icon-Clients:before {
+  content: "\e905";
+  color: #0962e8;
+}
+.icon-Economy:before {
+  content: "\e906";
+  color: #0962e8;
+}
+.icon-Increase:before {
+  content: "\e907";
+  color: #0962e8;
+}
+.icon-Activity:before {
+  content: "\e900";
+  color: #0962e8;
+}
+.icon-Filter:before {
+  content: "\e901";
+  color: #0962e8;
+}
+.icon-Graph:before {
+  content: "\e902";
+  color: #0962e8;
+}
+.icon-Setting:before {
+  content: "\e903";
+  color: #0962e8;
+}
